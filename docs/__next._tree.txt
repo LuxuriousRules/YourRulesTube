@@ -1,0 +1,5 @@
+:HL["/YourRulesTube/_next/static/chunks/0k2_ahk0w0fw..css","style"]
+:HL["/YourRulesTube/_next/static/media/bb835a708696869b-s.p.0b8i86yy3ch4j.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/YourRulesTube/_next/static/media/c825fd02acae0153-s.p.0js52-zd~6bs8.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/YourRulesTube/_next/static/chunks/0nu3.tx1p88j7.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"cSWIOzXNIwOYWORswyfAw"}
