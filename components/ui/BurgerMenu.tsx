@@ -37,14 +37,14 @@ function BurgerMenu () {
         <div className={style.BurgerMenu} ref={menuRef}>
             <button onClick={() => setOpen(!open)} className={style.icon}>
              <img
-             src="/Icon1.png"
+             src="/yourruletube/Icon1.png"
              alt="search"
              className={style.icon}
              />
             </button>
             
             
-                                <nav className={`${style.nav} ${open ? style.open : ""}`}>
+                                <div className={`${style.nav} ${open ? style.open : ""}`} role="navigation">
                                  <form
                                      onSubmit={(e) => {
                                          e.preventDefault();
@@ -60,7 +60,7 @@ function BurgerMenu () {
                                          placeholder="Поиск видео на YourTubeRules"
                                      />
                                  </form>
-                                </nav>
+                                </div>
             
         </div>
     );

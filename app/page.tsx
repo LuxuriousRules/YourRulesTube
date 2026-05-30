@@ -1,10 +1,12 @@
+import { Suspense } from "react";
 import SearchYouTube from "../components/main/SearchYoutube";
-import Player from "../components/ui/Player";
 
 function MainPage() {
   return (
     <section>
-      <SearchYouTube />
+      <Suspense fallback={<div>Loading...</div>}>
+        <SearchYouTube />
+      </Suspense>
     </section>
   );
 }
