@@ -1,0 +1,76 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "id": "searchIcon",
+      "type": "frame",
+      "name": "Search Icon",
+      "x": 0,
+      "y": 0,
+      "width": 140,
+      "height": 140,
+      "cornerRadius": 30,
+      "fill": "#0B3D91",
+      "stroke": "#3C7DF5",
+      "strokeThickness": 3,
+      "children": [
+        {
+          "id": "lensGlow",
+          "type": "ellipse",
+          "x": 18,
+          "y": 18,
+          "width": 84,
+          "height": 84,
+          "fill": "rgba(255,255,255,0.12)"
+        },
+        {
+          "id": "lens",
+          "type": "ellipse",
+          "x": 28,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "fill": "#E9F2FF",
+          "stroke": "#FFFFFF",
+          "strokeThickness": 6
+        },
+        {
+          "id": "handle",
+          "type": "rectangle",
+          "x": 72,
+          "y": 72,
+          "width": 56,
+          "height": 16,
+          "cornerRadius": 8,
+          "rotation": 45,
+          "fill": "#FFFFFF"
+        },
+        {
+          "id": "spark1",
+          "type": "ellipse",
+          "x": 102,
+          "y": 18,
+          "width": 14,
+          "height": 14,
+          "fill": "#FFFFFF",
+          "opacity": 0.8
+        },
+        {
+          "id": "spark2",
+          "type": "ellipse",
+          "x": 20,
+          "y": 98,
+          "width": 12,
+          "height": 12,
+          "fill": "#79A7FF"
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "z": "pencil:lunaris.lib.pen",
+    "r": "pencil:halo.lib.pen",
+    "Q": "pencil:nitro.lib.pen",
+    "u": "pencil:shadcn.lib.pen"
+  }
+}

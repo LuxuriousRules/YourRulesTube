@@ -1,0 +1,67 @@
+.body{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    background-color: rgb(33, 33, 33);
+    padding: 0.8rem ;
+    
+h1{
+    margin: 0;
+    font-size: clamp(24px, 2.5vw, 40px);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: clamp(5px, 8vw, 20px);
+}
+
+
+   
+}
+
+.nav__links{
+  @media(max-width: 650px)  {
+    display: none;
+  }
+}
+
+.burger{
+ 
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+   @media(min-width: 650px)  {
+    display: none; 
+}
+}
+
+.input{
+  width: clamp(350px, 5vw, 400px);
+  height: clamp(25px, 2.5vh, 50px);
+  margin: 0 auto;
+  background-color: rgba(170, 169, 169, 0.66);
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+&::placeholder{
+  font-size: small;
+  color: rgb(216, 216, 216);
+  padding: 0.5rem;
+  
+}  
+}
+

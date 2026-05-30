@@ -1,0 +1,36 @@
+.wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input{
+  width: clamp(350px, 5vw, 400px);
+  height: clamp(20px, 2.5vh, 50px);
+  margin: 0 auto;
+  background-color: rgba(170, 169, 169, 0.66);
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+
+
+&::placeholder{
+  font-size: small;
+  color: rgb(216, 216, 216);
+  padding: 0.5rem;
+  
+}  
+}
+
+.btn{
+    border-radius: 8px;
+    border: 1px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: clamp(25px, 2.5vh, 50px);
+    margin-top: 2px;
+    background-color: white;
+    color: black;
+}

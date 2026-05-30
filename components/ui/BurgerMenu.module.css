@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.burger {
+  position: relative;
+}
+
+.icon {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 25vw;
+  gap: 25px;
+  margin-top: 7vh;
+  font-size: clamp(16px, 5vw, 20px);
+  border-radius: 5px;
+  background-color: #212121;
+  padding: 0.8rem;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.nav.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  /* плавный выезд */
+  opacity: 1;
+}
+/*# sourceMappingURL=BurgerMenu.module.css.map */

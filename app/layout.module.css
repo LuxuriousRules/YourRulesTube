@@ -1,0 +1,50 @@
+.body {
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5vw;
+  background-color: #212121;
+  padding: 0.8rem;
+}
+
+.nav h1 {
+  margin: 0;
+  font-size: clamp(24px, 2.5vw, 40px);
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: clamp(5px, 8vw, 20px);
+}
+
+@media (max-width: 650px) {
+  .nav__links {
+    display: none;
+  }
+}
+
+.burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (min-width: 650px) {
+  .burger {
+    display: none;
+  }
+}
+/*# sourceMappingURL=layout.module.css.map */
