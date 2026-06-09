@@ -7,7 +7,7 @@
 
 .input{
   width: clamp(350px, 5vw, 400px);
-  height: clamp(20px, 2.5vh, 50px);
+  height: clamp(25px, 3.5vh, 45px);
   margin: 0 auto;
   background-color: rgba(170, 169, 169, 0.66);
   border-radius: 8px;
@@ -29,7 +29,7 @@
     border: 1px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    height: clamp(25px, 2.5vh, 50px);
+    height: clamp(29px, 3.5vh, 50px);
     margin-top: 2px;
     background-color: white;
     color: black;

@@ -20,8 +20,7 @@ export default function Player({ videos }: PlayerProps) {
             <div className={style.mainVideo}>
               <iframe
                 className={style.iframe}
-                width="800"
-                height="200"
+                
                 src={`https://www.youtube.com/embed/${selectedVideo.id.videoId}`}
                 title={selectedVideo.snippet.title}
                 frameBorder="0"
