@@ -37,7 +37,7 @@ function BurgerMenu () {
         <div className={style.BurgerMenu} ref={menuRef}>
             <button onClick={() => setOpen(!open)} className={style.icon}>
              <img
-             src="/yourruletube/Icon1.png"
+             src="Icon1.png"
              alt="search"
              className={style.icon}
              />

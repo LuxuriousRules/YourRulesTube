@@ -30,6 +30,7 @@ export default function ChatWindow({ videoTitle, videoDescription }: ChatWindowP
   };
 
   useEffect(() => {
+    if (messages.length === 0) return;
     scrollToBottom();
   }, [messages]);
 
