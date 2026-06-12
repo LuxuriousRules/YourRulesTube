@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { SearchYouTubeApi } from "../../utils/SearchYouTubeApi";
 import Player from "../ui/Player";
+import Loading from "../ui/Loading";
 
 export default function SearchYouTube() {
   const searchParams = useSearchParams();
@@ -37,7 +38,12 @@ export default function SearchYouTube() {
     };
   }, [query]);
 
-  if (loading) return <p>Загрузка видео...</p>;
+  if (loading) return <div style={{ position: "absolute",
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)"}}>
+    <Loading/>
+    </div>;
   if (error) return <p>Ошибка загрузки видео: {error}</p>;
 
   return <Player videos={videos} />;
