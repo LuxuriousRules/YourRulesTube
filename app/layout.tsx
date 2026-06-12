@@ -6,7 +6,7 @@ import BurgerMenu from "../components/ui/BurgerMenu";
 import SearchBar from "../components/ui/SearchBar";
 import style from "./layout.module.scss"
 import  "./global.css";
-import Test from "../components/main/Test";
+
 
 
 const raleway = Raleway({
